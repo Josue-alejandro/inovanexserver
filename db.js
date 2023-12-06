@@ -6,7 +6,8 @@ const db = mysql.createConnection({
   host: 'viaduct.proxy.rlwy.net',
   user: 'root',
   password: 'aG4gg-AD345Gh5BcccFgf1HeH5Fd12Cb',
-  database: 'railway'
+  database: 'railway',
+  port: 37990
 });
 
 db.connect((err) => {
