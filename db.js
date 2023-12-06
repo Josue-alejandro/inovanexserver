@@ -3,10 +3,10 @@
 const mysql = require('mysql2');
 
 const db = mysql.createConnection({
-  host: '206.62.170.105',
-  user: 'admin',
-  password: 'ZekaDRX18',
-  database: 'inovanex'
+  host: 'viaduct.proxy.rlwy.net',
+  user: 'root',
+  password: 'aG4gg-AD345Gh5BcccFgf1HeH5Fd12Cb',
+  database: 'railway'
 });
 
 db.connect((err) => {
