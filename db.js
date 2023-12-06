@@ -3,10 +3,10 @@
 const mysql = require('mysql2');
 
 const db = mysql.createConnection({
-  host: 'shareddb21.dfw.stackcp.net',
-  user: 'Josue',
+  host: '206.62.170.105',
+  user: 'admin',
   password: 'ZekaDRX18',
-  database: 'inovanex-3139315e54'
+  database: 'inovanex'
 });
 
 db.connect((err) => {
